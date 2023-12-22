@@ -1,0 +1,32 @@
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: antiquewhite;
+}
+.Toggle:hover{
+    color: rgba(8, 201, 249, 0.773);
+}
+.navbar-brand {
+    color: rgba(255, 255, 255, 0.805);
+   
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center ;
+    
+ 
+    
+}
+
+
+
+
+.navbar-brand:hover {
+        color: whitesmoke; /* Change the color on hover */
+    }
