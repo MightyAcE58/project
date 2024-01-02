@@ -34,12 +34,16 @@
     }
 }
 
-.sigh{
-    position: absolute;
+.sigh {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute;
     right: auto;
     left: auto;
-    align-content: center;
+    align-content: center;*/
 }
+
 /* @media screen and (max-width: 1000px) {
     .sigh{
         position: absolute;
@@ -48,17 +52,74 @@
     
 } */
 .border {
-    border: 1px solid #000;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    display: inline-block;
+    position:fixed;
+    margin-top: 20%;
+
+    
     align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    padding:30px;
+    border-radius: 15px;
+
+
+
+
     box-shadow: 0 0 15px #e5e3e389;
     background-color: rgba(72, 69, 69, 0.906);
 
-    
+
 }
+@media screen and (max-width: 375px) {
+    .border{
+        padding:30px;
+        font-size: small;
+        text-align:block;
+        top: 15%;
+        position: inline-block;
+        align-items: center;
+        justify-content: center;
+        right: 50%;
+        left: 50%;
+    }
+    @media screen and (max-width: 768px) {
+        .border{
+            margin: 60%;
+            position: fixed;
+            align-items: center ;
+            justify-content: center;
+        }
+        
+    }
+}
+.img {
+    background-image: url(https://source.unsplash.com/2560x1893/?nature);
+    background-repeat: no-repeat;
+    
+   object-fit: fill;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    bottom:0;
+}
+.New {
+    background-image: url(https://source.unsplash.com/1600x900/?cars);
+    background-repeat: no-repeat;
+    
+    
+   object-fit: fill;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    bottom:0;
+}
+
 /*@media screen and (max-width: 1440px) {
     .img{
         position: absolute;
